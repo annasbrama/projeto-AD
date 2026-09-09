@@ -90,7 +90,7 @@ Utilize prefixos padrão no início de cada mensagem de commit para organizar o 
 * `docs:` Alterações em documentações ou arquivos README (ex: `docs: atualiza instrucoes de instalacao`).
 * `style:` Formatação de código ou ajustes visuais que não alteram a lógica (ex: `style: ajusta espacamento do CSS`).
 
-Para mais, esse reposítório mostra os padrões e suas descrições: [Padrões de Commits](https://github.com/iuricode/padroes-de-commits).
+* Para mais, esse reposítório mostra os padrões e suas descrições: [Padrões de Commits](https://github.com/iuricode/padroes-de-commits). *
 ---
 
 ## 🚨 Regras Importantes
