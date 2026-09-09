@@ -1,0 +1,226 @@
+/* ======================================
+
+   GLOBAL.CSS
+
+   Reset · Variáveis · Tipografia · Componentes compartilhados
+
+
+
+   Criação no dia 05/05/2026
+
+   ====================================== */
+
+
+
+/* ======================================
+
+   Variáveis de Design (Design Tokens)
+
+   ====================================== */
+
+:root {
+
+  /* Cores da Marca */
+
+  --novo-orange: #ec671c;
+
+  --novo-blue: #1a2644;
+
+  --novo-yellow: #fbbc0f;
+
+  --novo-green: #1c7732;
+
+  --novo-white: #ffffff;
+
+
+
+  /* Tokens Semânticos */
+
+  --color-bg: var(--novo-white);
+
+  --color-surface: #EFF2F5;
+
+  --color-primary: var(--novo-orange);
+
+  --color-secondary: var(--novo-blue);
+
+  --color-text: var(--novo-blue);
+
+  --color-muted: #6b7280;
+
+  --color-border: #e5e7eb;
+
+  --color-card: var(--novo-white);
+
+
+
+  /* Tipografia */
+
+  --font-display: "Bebas Neue", sans-serif;
+
+  --font-body: "Inter", sans-serif;
+
+
+
+  /* Espaçamentos (px — rem proibido para espaçamento) */
+
+  --space-1: 4px;
+
+  --space-2: 8px;
+
+  --space-3: 12px;
+
+  --space-4: 16px;
+
+  --space-5: 20px;
+
+  --space-6: 24px;
+
+  --space-8: 32px;
+
+  --space-10: 40px;
+
+  --space-12: 48px;
+
+  --space-16: 64px;
+
+  --space-20: 80px;
+
+  --space-24: 96px;
+
+  --space-28: 112px;
+
+
+
+  /* Bordas */
+
+  --radius-sm: 6px;
+
+  --radius-md: 8px;
+
+  --radius-lg: 12px;
+
+  --radius-xl: 16px;
+
+  --radius-full: 9999px;
+
+
+
+  /* Animações e Estrutura */
+
+  --transition: 200ms ease;
+
+  --max-w: 1280px;
+
+}
+
+
+
+/* ======================================
+
+   Reset Básico
+
+   ====================================== */
+
+*,
+
+*::before,
+
+*::after {
+
+  box-sizing: border-box;
+
+  margin: 0;
+
+  padding: 0;
+
+}
+
+
+
+html {
+
+  scroll-behavior: smooth;
+
+}
+
+
+
+body {
+
+  font-family: var(--font-body);
+
+  font-size: 1rem;
+
+  line-height: 1.6;
+
+  color: var(--color-text);
+
+  background: var(--color-bg);
+
+  overflow-x: clip;
+
+}
+
+
+
+img {
+
+  display: block;
+
+  max-width: 100%;
+
+  height: auto;
+
+}
+
+
+
+a {
+
+  color: inherit;
+
+  text-decoration: none;
+
+}
+
+
+
+address {
+
+  font-style: normal;
+
+}
+
+
+/* ======================================
+
+   Tipografia Base
+
+   ====================================== */
+
+h1,
+
+h2,
+
+h3,
+
+h4,
+
+h5,
+
+h6,
+
+.font-display {
+
+  font-family: var(--font-display);
+
+  letter-spacing: 0.02em;
+
+  text-transform: uppercase;
+
+  line-height: 0.95;
+
+  font-weight: 400;
+
+}
